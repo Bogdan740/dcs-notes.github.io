@@ -85,7 +85,7 @@ public class Main{
 ```
 
 There are a few caveats to take away from this:
-- `switch` statements are evaluated bottom to top
+- `switch` statements are evaluated top to bottom
 - If a `case` branch matches the `variable`, the expressions in that `case` will be evaluated.
 - The `break` keyword is **optional**. This means that the `switch` statement will continue running top to bottom otherwise, even after satisfying a case. Think about if you would like this behaviour!
 - The `default` statement is also **optional**; it is only evaluated if no cases match the variable expression.
